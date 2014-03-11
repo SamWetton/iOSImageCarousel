@@ -14,7 +14,6 @@
 //======================================================================================================================
 @interface ICImageCarouselViewController ()
 
-
 // Model
 @property (nonatomic, strong) NSArray *images;
 @property (nonatomic, strong) NSMutableArray *pageViews;
@@ -46,7 +45,6 @@
 -(void)setImageContentMode:(UIViewContentMode)imageContentMode{
     _imageContentMode = imageContentMode;
 }
-
 
 //===== Core =====//
 +(ICImageCarouselViewController *)imageCarouselViewControllerWithImages:(NSArray *)imagesArray
