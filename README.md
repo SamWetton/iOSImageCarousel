@@ -4,7 +4,7 @@ iOSImageCarousel
 An Image Carousel for iOS
 
 
-#Usage
+##Usage
 
 Add the ICImageCarouselViewController.h and .m to your project.
 
@@ -12,7 +12,7 @@ Create an ICImageCarouselViewController object passing it in an arry of UIImages
 
 Test it works :)
 
-#Optional
+##Optional
 
 Side/top/bottom margins can be set in pixels, default to 4px each. 
 
